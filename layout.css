@@ -487,6 +487,11 @@ div {
     background-color: #FF0000;
     clip-path: polygon(40% 0%, 40% 40%, 100% 40%, 100% 60%, 40% 60%, 40% 100%, 0% 50%);
     display: none;
+    animation: start 1s infinite ease-in-out;
+}
+@keyframes start {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
 }
 .arrow_left {
     top: 5px;
